@@ -1,0 +1,16 @@
+
+
+
+if($result )			    
+{		
+echo "Selected message is deleted...";
+echo "<p>Click <a href=''> here </a> to add another";
+exit(0); //echo "Added To The Database";	
+echo $qns;
+}			 
+else			  
+{			
+echo "Error...";
+echo "<p>Click <a href=''> here </a> to go back";
+exit(0);			  
+}
